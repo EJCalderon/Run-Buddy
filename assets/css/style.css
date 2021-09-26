@@ -35,7 +35,7 @@ header nav ul{
     list-style: none;
 }
 header nav ul li a {
-    margin: 0 30px;
+    padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw;
 }
@@ -85,6 +85,7 @@ section {
     font-style: italic;
     font-size: 55px;
     color: #fce138;
+    align-items: flex-start;
     
 }    
 .hero-form{
@@ -133,7 +134,7 @@ section {
     background: #fce138;
 }
 .section-title{
-    font-size: 55px;
+    font-size: 48px;
     color: #024e76;
     border-bottom: 3px solid;
     padding: 20px;
@@ -298,4 +299,8 @@ section {
 }
 .flex-row {
     display: flex;
+}
+@media screen and (max-width: 980px){
+   
+    
 }
